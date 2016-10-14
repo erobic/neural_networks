@@ -1,11 +1,8 @@
 # Neural Networks
 
-This is where I implement networks and tweak things to improve their performances
+Implementation of Neural network with Backpropagation and Stochastic Gradient Descent. Cost and activation functions can be switched easily.
 
-## network.py
-A neural network with n-layers and selectable cost and activation functions
-
-### Sample program:
+### Usage:
 ```python
 import network
 model = network.Network([784, 30, 10])
